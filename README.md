@@ -17,8 +17,12 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 - Add `ensure saltynui` to your server.cfg and make sure the NUI is started AFTER SaltyChat.
 
 ### Advanced Installation
+- Open the SaltyChat solution in VS
+- Open SaltyClient/VoiceManager.cs
+- Goto Line 489 and add `BaseScript.TriggerEvent("SaltyNUI:TsActive");`to the OnConnected Event
+- Goto Line 500 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");`to the OnDisconnected Event
 
-
+These events gets triggered when Players close their Teamspeak Client or connect to it.
 
 ### License
 
