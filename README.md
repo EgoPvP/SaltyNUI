@@ -13,6 +13,7 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 ## How to Install?
 ### Basic Installation
 - Download the latest Release of SaltyNUI
+- Rename the Downloaded Folder to "saltynui"
 - Copy the Folder into your ressources/ folder
 - Add `ensure saltynui` to your server.cfg and make sure the NUI is started AFTER SaltyChat.
 
