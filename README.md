@@ -11,9 +11,12 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 [Download SaltyChat](https://github.com/saltminede/saltychat-fivem)
 
 ## How to Install?
+### Basic Installation
 - Download the latest Release of SaltyNUI
 - Copy the Folder into your ressources/ folder
 - Add `ensure saltynui` to your server.cfg and make sure the NUI is started AFTER SaltyChat.
+
+### Advanced Installation
 
 
 
