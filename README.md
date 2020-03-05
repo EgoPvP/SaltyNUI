@@ -17,7 +17,6 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 
 
 
-
 ### License
 
 SaltyNUI - Discourage Users without Temspeak running when using SaltyChat!
