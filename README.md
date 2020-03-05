@@ -32,7 +32,7 @@ if (pluginState.IsReady)
                 BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
                 
             } 
-            ``` 
+```
             to the OnConnected Event
 - Goto Line ~530 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
 
