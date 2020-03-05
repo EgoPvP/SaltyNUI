@@ -24,7 +24,7 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 
 These events gets triggered when Players close their Teamspeak Client or connect to it.
 
-### License
+## License
 
 SaltyNUI - Discourage Users without Temspeak running when using SaltyChat!
 
