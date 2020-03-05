@@ -21,14 +21,14 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 - Open the SaltyChat solution in VS
 - Open SaltyClient/VoiceManager.cs
 - Goto Line 489 and add 
-``` 
-if (pluginState.IsReady){
+```c#
+if(pluginState.IsReady){
    BaseScript.TriggerEvent("SaltyNUI:TsActive");
  }else{
    BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
  } 
 ```
-to the OnConnected Event
+to the OnMessage Event
 - Goto Line ~530 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
 
 These events gets triggered when Players close their Teamspeak Client or connect to it.
