@@ -33,7 +33,7 @@ if (pluginState.IsReady)
                 
             } 
 ```
-            to the OnConnected Event
+to the OnConnected Event
 - Goto Line ~530 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
 
 These events gets triggered when Players close their Teamspeak Client or connect to it.
