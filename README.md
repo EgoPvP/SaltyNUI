@@ -20,7 +20,8 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 ### Advanced Installation
 - Open the SaltyChat solution in VS
 - Open SaltyClient/VoiceManager.cs
-- Goto Line 489 and add `  if (pluginState.IsReady)
+- Goto Line 489 and add `  
+if (pluginState.IsReady)
             {
                 BaseScript.TriggerEvent("SaltyNUI:TsActive");
                 
