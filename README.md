@@ -20,18 +20,13 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 ### Advanced Installation
 - Open the SaltyChat solution in VS
 - Open SaltyClient/VoiceManager.cs
-Goto Line 489 and add 
+- Goto Line 489 and add 
 ``` 
-if (pluginState.IsReady)
-            {
-                BaseScript.TriggerEvent("SaltyNUI:TsActive");
-                
-            }
-            else
-            {
-                BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
-                
-            } 
+if (pluginState.IsReady){
+   BaseScript.TriggerEvent("SaltyNUI:TsActive");
+ }else{
+   BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
+ } 
 ```
 to the OnConnected Event
 - Goto Line ~530 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
