@@ -20,7 +20,7 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 ### Advanced Installation
 - Open the SaltyChat solution in VS
 - Open SaltyClient/VoiceManager.cs
-- Goto Line 489 and add 
+- Goto Line ~530 and add 
 ```c#
 if(pluginState.IsReady){
    BaseScript.TriggerEvent("SaltyNUI:TsActive");
@@ -29,7 +29,7 @@ if(pluginState.IsReady){
  } 
 ```
 to the OnMessage Event
-- Goto Line ~530 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
+- Goto Line 500 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
 
 These events gets triggered when Players close their Teamspeak Client or connect to it.
 
