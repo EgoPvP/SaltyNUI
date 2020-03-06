@@ -39,7 +39,7 @@ These events gets triggered when Players close their Teamspeak Client and connec
 
 SaltyNUI - Discourage Users without Temspeak running when using SaltyChat!
 
-Copyright (C) 2020 - EgoPvP
+Copyright (C) 2020 - [EgoPvP.com](https://egopvp.com)
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
