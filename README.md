@@ -40,7 +40,8 @@ If you need any kind of Support, feel free to open an Issue.
 
 Otherwise you can Concat me here:
 [Discord](https://egopvp.com/discord)
-[Teamspeak](ts3server://ts.egopvp.com)
+
+Teamspeak: ts.egopvp.com (German Only!)
 
 ## License
 
