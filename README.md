@@ -35,6 +35,13 @@ to the OnMessage Event
 
 These events gets triggered when Players close their Teamspeak Client and connect to a server / switch Channels
 
+## Support
+If you need any kind of Support, feel free to open an Issue.
+
+Otherwise you can Concat me here:
+[Discord](https://egopvp.com/discord)
+[Teamspeak](ts3server://ts.egopvp.com)
+
 ## License
 
 SaltyNUI - Discourage Users without Temspeak running when using SaltyChat!
