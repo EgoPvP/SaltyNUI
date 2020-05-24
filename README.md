@@ -32,6 +32,7 @@ if(pluginState.IsReady){
 ```
 to the OnMessage Event
 - Goto Line 500 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
+- !!IMPORTANT!! COMPILE SALTYCHAT AGAIN AND RE-UPLAOD IT!
 
 These events gets triggered when Players close their Teamspeak Client and connect to a server / switch Channels
 
