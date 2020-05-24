@@ -22,7 +22,7 @@ On the Basic Installation SaltyNUI only gets triggered when u mute your Micropho
 ### Advanced Installation
 - Open the SaltyChat C# solution in VS
 - Open SaltyClient/VoiceManager.cs
-- Goto Line ~530 and add 
+- Goto Line ~560 and add 
 ```c#
 if(pluginState.IsReady){
    BaseScript.TriggerEvent("SaltyNUI:TsActive");
