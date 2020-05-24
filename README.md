@@ -40,7 +40,7 @@ These events gets triggered when Players close their Teamspeak Client and connec
 If you need any kind of Support, feel free to open an Issue.
 
 Otherwise you can Contact me here:
-[Discord](https://egopvp.com/discord)
+[Discord](https://egopvp.com/discord) (German / English)
 
 Teamspeak: ts.egopvp.com (German Only!)
 
