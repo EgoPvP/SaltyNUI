@@ -30,8 +30,10 @@ if(pluginState.IsReady){
    BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
  } 
 ```
-to the OnMessage Event
-- Goto Line 500 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event
+to the OnMessage Event (under case Command.StateUpdate)
+It should look somethings like [THIS](https://screens.egopvp.com/files/2020/05/30/devenv_58LaZ8WVeJ.png) 
+
+- Goto Line 500 and add `BaseScript.TriggerEvent("SaltyNUI:TsNotActive");` to the OnDisconnected Event (It should look like [THIS](https://screens.egopvp.com/files/2020/05/30/devenv_g5rbAJWpAH.png))
 - !!IMPORTANT!! COMPILE SALTYCHAT AGAIN AND RE-UPLAOD IT!
 
 These events gets triggered when Players close their Teamspeak Client and connect to a server / switch Channels
