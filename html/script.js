@@ -4,7 +4,7 @@ $(function () {
       displayPluginScreen(event.data.value);
     }
   });
-});
+
 
 function displayPluginScreen(toggle) {
   document.getElementById("pluginScreen").style.display = toggle
