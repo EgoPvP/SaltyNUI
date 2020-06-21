@@ -5,6 +5,7 @@ $(function () {
     }
   });
 }
+  });
 
 
 function displayPluginScreen(toggle) {
