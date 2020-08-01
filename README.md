@@ -20,6 +20,9 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 On the Basic Installation SaltyNUI only gets triggered when u mute your Microphone. To get triggered when Player is in Wrong Server/Channel or isnt even Online you need the Advanced Installation!
 
 ### Advanced Installation
+
+### ONLY FOR SALTYCHAT 1. * . * !! Saltychat 2. * . * following when i have the time! onDisconnected event stayed. Only the pluginState thing changed to InstanceState. How it has to look: [LIKE THIS](https://cdn.discordapp.com/attachments/714068176354279495/739255258374471711/unknown.png) - Make sure to name the Events properly!!
+
 - Open the SaltyChat C# solution in VS
 - Open SaltyClient/VoiceManager.cs
 - Goto Line ~560 and add 
@@ -40,6 +43,9 @@ These events gets triggered when Players close their Teamspeak Client and connec
 
 ## Support
 If you need any kind of Support, feel free to open an Issue.
+
+### A lot of u guys seem to have problems READING the ReadMe. Make shure u read it carefully and didnt miss anything and added the Event-Triggers like you should. I dont Provide a screenshot for you to not use it. Its supposed to be a helping thing.
+### Make sure, u provide ur SaltyChat version and a Screenshot of the Code that you have added so i can do some proper bugfixxing!
 
 Otherwise you can Contact me here:
 [Discord](https://egopvp.com/discord) (German / English) (NO DM SUPPORT!!! ONLY VIA THE GITHUB SUPPORT CHANNEL!)
