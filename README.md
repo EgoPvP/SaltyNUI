@@ -21,7 +21,7 @@ On the Basic Installation SaltyNUI only gets triggered when u mute your Micropho
 
 ### Advanced Installation
 
-### ONLY FOR SALTYCHAT 1. * . * !! Saltychat 2. * . * following when i have the time! onDisconnected event stayed. Only the pluginState thing changed to InstanceState. How it has to look: [LIKE THIS](https://cdn.discordapp.com/attachments/714068176354279495/739255258374471711/unknown.png) - Make sure to name the Events properly!!
+### ONLY FOR SALTYCHAT 1. * . * !! Saltychat 2. * . * following when i have the time! onDisconnected event stayed. Only the pluginState thing changed to InstanceState. How it has to look: [LIKE THIS](https://screens.egopvp.com/files/2020/08/07/devenv_0dI2m50Rvj.png) - Make sure to name the Events properly!!
 
 - Open the SaltyChat C# solution in VS
 - Open SaltyClient/VoiceManager.cs
