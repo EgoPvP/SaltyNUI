@@ -68,7 +68,7 @@ If you need any kind of Support, feel free to open an Issue.
 
 ### A lot of u guys seem to have problems READING the Readme. Make shure u read it carefully and didnt miss anything and added the Event-Triggers like you should. I dont Provide a screenshot for you to not use it. Its supposed to be a helping thing.
 
-###Be aware that the Official SaltyChat Devs wont give you support of any kind for 3rd party ressources and only reffer to asking me.
+### Be aware that the Official SaltyChat Devs wont give you support of any kind for 3rd party ressources and only reffer to asking me.
 
 ### Make sure, u provide ur SaltyChat version and a Screenshot of the Code that you have added so i can do some proper bugfixxing!
 
