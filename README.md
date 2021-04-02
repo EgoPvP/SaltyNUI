@@ -27,9 +27,9 @@ On the Basic Installation SaltyNUI only gets triggered when u mute your Micropho
 - Goto Line ~640 and add 
 ```c#
 if (this.PlguinState == GameInstanceState.Ingame){
-BaseScript.TriggerEvent("System:TsActive");
+BaseScript.TriggerEvent("SaltyNUI:TsActive");
 }else{
-BaseScript.TriggerEvent("System:TsNotActive");
+BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
 }
 ```
 to the OnMessage Event (under case Command.InstanceState)
