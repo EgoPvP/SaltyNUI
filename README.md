@@ -39,7 +39,7 @@ It should look somethings like [THIS](https://screens.egopvp.com/files/2021/04/0
 
 These events gets triggered when Players close their Teamspeak Client and connect to a server / switch Channels
 
-### For Saltychat 2.x.x - 2.1.2
+### For Saltychat 2.0.x - 2.1.2
 
 - Open the SaltyChat C# solution in VS
 - Open SaltyClient/VoiceManager.cs
