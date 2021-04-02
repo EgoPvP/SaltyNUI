@@ -91,9 +91,9 @@ Also setting up every channel besides the "waiting" channel as a Swiss-Channel i
 - Instead of adding the above code to Line ~640 add this one:
 ```c#
 if (this.PlguinState == GameInstanceState.Ingame || this.PlguinState == GameInstanceState.InSwissChannel){
-BaseScript.TriggerEvent("System:TsActive");
+BaseScript.TriggerEvent("SaltyNUI:TsActive");
 }else{
-BaseScript.TriggerEvent("System:TsNotActive");
+BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
 }
 ```
 
