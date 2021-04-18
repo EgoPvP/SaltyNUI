@@ -1,50 +1,11 @@
-local ismuted = false
-
---- SaltyNUI Events ---
-RegisterNetEvent('SaltyNUI:TsNotActive')
-AddEventHandler('SaltyNUI:TsNotActive', function() 
-
-	SendNUIMessage({action = "toggleWindow", value = "true"})
-	ismuted = true
-	
-end)
-RegisterNetEvent('SaltyNUI:TsActive')
-AddEventHandler('SaltyNUI:TsActive', function() 
-
-	SendNUIMessage({action = "toggleWindow", value = "false"})
-	ismuted = false
-	
-end)
-
-
--- SaltyChat Events --- 
-AddEventHandler('SaltyChat_SoundStateChanged', function(muted) 
-
-if (muted) then
-
-	SendNUIMessage({action = "toggleWindow", value = "true"})
-	ismuted = true
-	
+AddEventHandler('SaltyChat_PluginStateChanged', function(PluginState) 
+	if PluginState == 2 or PluginState == 3 then 
+		SendNUIMessage({action = "toggleWindow", value = "false"})
+		EnableAllControlActions(0)
+		EnableAllControlActions(2)
 	else
-	ismuted = false
-	SendNUIMessage({action = "toggleWindow", value = "false"})
-	
-	end
-end)
-
---- Disable Movement if muted ---
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(100)
-		local playerPed = PlayerPedId()
-
-		if ismuted then
-			DisableAllControlActions(0)
-
-			
-		else
-			Citizen.Wait(500)
-			
-		end
+		SendNUIMessage({action = "toggleWindow", value = "true"})
+		DisableAllControlActions(0)
+		DisableAllControlActions(2)
 	end
 end)
