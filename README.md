@@ -98,6 +98,12 @@ BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
 }
 ```
 
+## Other Scripts
+
+- [erp_antifalldown](https://github.com/EgoPvP/erp_antifalldown) - Stop your Player from falling into the dark void.
+- [erp_towscript](https://github.com/EgoPvP/erp_towscript) - Highly Customisable and top working Vehicle Towing Script for FiveM
+- [sitdown](https://github.com/EgoPvP/sitdown) - Sitting made easy!
+
 ## Support
 If you need any kind of Support, feel free to open an Issue.
 
