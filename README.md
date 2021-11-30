@@ -114,7 +114,7 @@ If you need any kind of Support, feel free to open an Issue.
 ### Make sure, u provide ur SaltyChat version and a Screenshot of the Code that you have added so i can do some proper bugfixxing!
 
 Otherwise you can Contact me here:
-[Discord](https://discord.gg/6jsHUVMh8G)
+[Discord](https://discord.gg/qRc5Hbb)
 
 Teamspeak: ts.egopvp.com (German Only!)
 
