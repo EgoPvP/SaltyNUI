@@ -20,7 +20,7 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 On the Basic Installation SaltyNUI only gets triggered when u mute your Microphone. To get triggered when Player is in Wrong Server/Channel or isnt even Online you need the Advanced Installation!
 
 ## Advanced Installation
-### For Saltychat 2.2.x  (LATEST)
+### For Saltychat 2.2.x  - (LATEST)
 
 - Open the SaltyChat C# solution in VS
 - Open SaltyClient/VoiceManager.cs
