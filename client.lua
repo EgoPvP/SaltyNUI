@@ -1,4 +1,4 @@
--- Made by ! der_nqmenl0se#1337 --
+-- Made by ! der_nqmenl0se#1337 -- Updated by Maty
 -- Support & more of my Work - https://discord.gg/qRc5Hbb --
 -- Copyright (C) 2020 - EgoPvP.com
 -- This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published 
@@ -14,14 +14,14 @@ local ismuted = false
 RegisterNetEvent('SaltyNUI:TsNotActive')
 AddEventHandler('SaltyNUI:TsNotActive', function() 
 
-	SendNUIMessage({action = "toggleWindow", value = "true"})
+	SendNUIMessage({action = "showNUI"})
 	ismuted = true
 	
 end)
 RegisterNetEvent('SaltyNUI:TsActive')
 AddEventHandler('SaltyNUI:TsActive', function() 
 
-	SendNUIMessage({action = "toggleWindow", value = "false"})
+	SendNUIMessage({action = "hideNUI"})
 	ismuted = false
 	
 end)
@@ -32,12 +32,12 @@ AddEventHandler('SaltyChat_SoundStateChanged', function(muted)
 
 if (muted) then
 
-	SendNUIMessage({action = "toggleWindow", value = "true"})
+	SendNUIMessage({action = "showNUI"})
 	ismuted = true
 	
 	else
-	ismuted = false
-	SendNUIMessage({action = "toggleWindow", value = "false"})
+		SendNUIMessage({action = "hideNUI"})
+		ismuted = false
 	
 	end
 end)
@@ -58,3 +58,4 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
