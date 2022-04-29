@@ -1,75 +1,264 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<style>
-			*{
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-				z-index : 99999999999;
-			}
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>by meerbi.design</title>
+<style id="applicationStylesheet" type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+::-webkit-scrollbar {
+  display: none;
+}
 
-			html{
-				font-size: 10px;
-				font-family: "Lato", Arial, sans-serif;
-			}
+body {
+	overflow: hidden;
+	user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+* {
+	font-family: Poppins;
+}
+	.mediaViewInfo {
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Canvas;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	.Canvasn {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(0,0,0,0);
+		overflow: hidden;
+		--web-view-name: Canvas;
+		--web-view-id: Canvas;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	.bgn {
+		position: absolute;
+		width: 1981px;
+		height: 1295px;
+		left: -37px;
+		top: -181px;
+		overflow: visible;
+	}
+	.saltynuin {
+	    background-image: radial-gradient(rgba(79, 10, 88, 0.6), rgba(79, 10, 88, 0.6)), linear-gradient(to right, rgba(144,22,216,1) 10%, rgba(0, 0, 0, 0) 90%);
+		position: absolute;
+		width: 823px;
+		height: 414px;
+		left: 548px;
+		top: 333px;
+		overflow: visible;
+		border-radius: 1vh;
+	}
+	.mainn {
+		position: absolute;
+		width: 823px;
+		height: 414px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.Logo_Nexus-Vn {
+		position: absolute;
+		width: 263px;
+		height: 263px;
+		left: 30px;
+		top: 68px;
+		overflow: visible;
+	}
+	.SALTYCHAT_IST_NICHT_VERBUNDEN {
+		left: 419px;
+		top: 55px;
+		position: absolute;
+		overflow: visible;
+		width: 319px;
+		white-space: nowrap;
+		line-height: 22.5px;
+		margin-top: -1.875px;
+		text-align: left;
+		font-family: "Arial Black";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18.75px;
+		color: rgb(8, 184, 228);
+	}
+	.innern {
+		position: absolute;
+		width: 399px;
+		height: 251px;
+		left: 380px;
+		top: 113px;
+		overflow: visible;
+	}
+	.saltynuiii_2n {
+		opacity: 0.251;
+		fill: rgba(0,0,0,1);
+	}
+	.saltynuiii_2 {
+		overflow: visible;
+		position: absolute;
+		width: 399px;
+		height: 203px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.UM_AUF_SERVERNAME_SPIELEN_ZU_Kn {
+		left: 27px;
+		top: 38px;
+		position: absolute;
+		overflow: visible;
+		width: 357px;
+		white-space: nowrap;
+		line-height: 15.000000953674316px;
+		margin-top: -1.2500004768371582px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(255,255,255,1);
+	}
+	.Gruppe_5n {
+		position: absolute;
+		width: 284px;
+		height: 22px;
+		left: 58px;
+		top: 229px;
+		overflow: visible;
+	}
+	.Gruppe_1n {
+		position: absolute;
+		width: 71px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.teamspeak-brandsn {
+		position: absolute;
+		width: 22px;
+		height: 22px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.SOONn {
+		left: 35px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		line-height: 15.000000953674316px;
+		margin-top: -1.2500004768371582px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(217,217,217,1);
+	}
+	.Gruppe_1_sn {
+		position: absolute;
+		width: 70px;
+		height: 22px;
+		left: 140px;
+		top: 0px;
+		overflow: visible;
+	}
+	.discord-brands_1n {
+		position: absolute;
+		width: 25px;
+		height: 20px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	.SOON_un {
+		left: 34px;
+		top: 3px;
+		position: absolute;
+		overflow: visible;
+		width: 37px;
+		white-space: nowrap;
+		line-height: 15.000000953674316px;
+		margin-top: -1.2500004768371582px;
+		text-align: left;
+		font-family: Poppins-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12.5px;
+		color: rgba(217,217,217,1);
+	}
 
-			.pluginScreen {
-				width: 100%;
-				height: 100vh;
-				color: #fff;
-				background: linear-gradient(-45deg, #23A455, #23a48f, #2b3f4a, #2B394A);
-				animation: change 10s ease-in-out infinite;
-				background-size: 400% 400%;
-				position: relative;
-				
-			}
+	#makearial {
 
-			.test{
-				font-size: 2em;
-				text-transform: uppercase;
-				border: 3px solid #fff;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				padding: 5rem 10rem;
-			}
-
-			@keyframes change {
-				0%{
-					background-position: 0 50%;
-				}
-				50%{
-					background-position: 100% 50%;
-				}
-				100%{
-					background-position: 0 50%;
-				}
-			}
-
-		</style>
-		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
-		<script src="script.js" type="text/javascript"></script>
-	</head>
+		font-family: "Arial Black";
+	}
+</style>
+<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+<script id="applicationScript" type="text/javascript" src="rescale.js"></script>
+</head>
 <body class="pluginScreen" id="pluginScreen">
-	<div id="pluginScreenWindow" class="pluginScreenWindow">
-
-				<div class="test" style="text-align: center;">
-					<h1><font color="#23A455">	Teamspeak is a neccessety.</font></h1>
-				<br><br>
-				<br><br>
-				To play on this Server you need to be Online on our<font color="orange">Teamspeak Server!</font>
-				<br><br>
-				You need to have the <font color="#01b0f0">SaltyChat Teamspeak Addon</font> <font color="red"> Installed and Activiated</font>
-				<br><br>
-				<br><br>
-				If you have any further Questions or Problems feel free to contact our <font color="yellow" >Support Team!</font>
-				<br>
-				
-				<br><br></b>
-				<h4>TeamSpeak IP: <font color="#7891b0" >ts.egopvp.com</font></h4>
-				
-				</div>	
-			</div>		
-	</body>
+<div id="Canvas" class="Canvasn">
+	<img class="bgn" src="https://cdn.discordapp.com/attachments/957963151851257856/965215688182628352/next_createcharbackground.png">
+		
+	<div class="saltynuin">
+		<!--img class="mainn" src="https://cdn.discordapp.com/attachments/788240573382787114/904781729431187556/main.png"-->
+			
+		<img class="Logo_Nexus-Vn" src="https://cdn.discordapp.com/attachments/957963151851257856/964853897283903528/nextlogo.gif">
+			
+		<div class="SALTYCHAT_IST_NICHT_VERBUNDEN">
+			<span id="makearial">SALTYCHAT IST NICHT VERBUNDEN</span>
+		</div>
+		<div class="innern">
+			<svg class="saltynuiii_2" viewBox="928 446 399 203">
+				<path class="saltynuiii_2n" d="M 933.0003051757812 648.9999389648438 C 930.2382202148438 648.9999389648438 927.9999389648438 646.7615966796875 927.9999389648438 644.0004272460938 L 927.9999389648438 450.9999084472656 C 927.9999389648438 448.2387084960938 930.2382202148438 446.0003967285156 933.0003051757812 446.0003967285156 L 1322.000122070312 446.0003967285156 C 1324.761352539062 446.0003967285156 1326.999633789062 448.2387084960938 1326.999633789062 450.9999084472656 L 1326.999633789062 644.0004272460938 C 1326.999633789062 646.7615966796875 1324.761352539062 648.9999389648438 1322.000122070312 648.9999389648438 L 933.0003051757812 648.9999389648438 Z">
+				</path>
+			</svg>
+			<div class="UM_AUF_SERVERNAME_SPIELEN_ZU_Kn">
+				<span>UM AUF </span><span style="color:rgb(228, 8, 191);">NEXT ROLEPLAY </span><span>SPIELEN ZU KÖNNEN, </span><br/><span>MUSST DU AUF DEM </span><span style="color:rgb(228, 8, 191);">NEXT ROLEPLAY TEAMSPEAK</span><span> SEIN!</span><br/><span> </span><span style="color:rgba(8, 184, 228);"> </span><span> </span><br/><span></span><br/><span></span><br/><span>WENN DU FRAGEN HAST,</span><br/><span>STEHT DIR DAS </span><span style="color:rgb(228, 8, 191);">NEXT ROLEPLAY TEAM </span><span>ZUR VERFÜGUNG.</span>
+			</div>
+			<div class="Gruppe_5n">
+				<div class="Gruppe_1n">
+					<img class="teamspeak-brandsn" src="https://cdn.discordapp.com/attachments/915102357128359996/957369614659117056/teamspeak-brands.png">
+						
+					<div class="SOONn">
+						<span>nextrp</span>
+					</div>
+				</div>
+				<div class="Gruppe_1_sn">
+					<img class="discord-brands_1n" src="https://cdn.discordapp.com/attachments/915102357128359996/957369196684124340/discord-brands_2.png">
+						
+					<div class="SOON_un">
+						<span>discord.gg/next-roleplay</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
 </html>
