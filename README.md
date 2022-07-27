@@ -99,6 +99,7 @@ BaseScript.TriggerEvent("SaltyNUI:TsNotActive");
 ```
 
 ## Other Scripts
+We now offer Custom Script creations at our Store: [CLICK ME](https://shop.egorp.net/category/custom-development)
 
 - [SaltyNUI](https://shop.egorp.net/package/4668315) - Discourage Users without Temspeak running when using SaltyChat!
 - [erp_saltycircle](https://shop.egorp.net/package/4668429) - A basic Circle, visualizing your current voice range when using Saltychat
