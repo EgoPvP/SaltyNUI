@@ -10,6 +10,10 @@ It offers many features besides the Proximity Chat like Radio Channels and Priva
 
 [Download SaltyChat](https://github.com/saltminede/saltychat-fivem)
 
+
+## Get the Script
+You canget the script from out script-store [CLICK ME](https://shop.egorp.net/package/4668315)
+
 ## How to Install?
 ### Basic Installation
 - Get the Script from our Store: [CLICK ME](https://shop.egorp.net/package/4668315)
